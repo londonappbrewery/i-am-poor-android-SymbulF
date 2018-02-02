@@ -28,7 +28,8 @@
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        app:srcCompat="@drawable/coal" android:contentDescription="TODO"/>
+        android:contentDescription="@string/image1"
+        app:srcCompat="@drawable/coal" />
 
     <TextClock
         android:id="@+id/textClock"
